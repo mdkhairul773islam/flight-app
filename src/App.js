@@ -24,12 +24,12 @@ import expresscard from './assets/images/element/expresscard.svg';
 import './App.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import './assets/css/style.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Choices from 'choices.js';
 import 'choices.js/public/assets/styles/choices.min.css';
 import 'flatpickr/dist/flatpickr.min.css';
 import flatpickr from 'flatpickr';
+import './assets/css/style.css';
 function App() {
   useEffect(() => {
     // Define isVariableDefined function
