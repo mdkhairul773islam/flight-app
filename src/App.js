@@ -27,10 +27,11 @@ import './assets/vendor/bootstrap-icons/bootstrap-icons.css';
 import './assets/vendor/choices/css/choices.min.css';
 import './assets/vendor/flatpickr/css/flatpickr.min.css';
 import './assets/css/style.css';
-import './assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js';
-import './assets/vendor/choices/js/choices.min.js';
-/* global flatpickr */
-import './assets/vendor/flatpickr/js/flatpickr.min.js';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Choices from 'choices.js';
+import 'choices.js/public/assets/styles/choices.min.css';
+import 'flatpickr/dist/flatpickr.min.css';
+import flatpickr from 'flatpickr';
 function App() {
   useEffect(() => {
     // Define isVariableDefined function
